@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="295.0" prefWidth="466.0" style="-fx-background-color: #008B8B;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="159.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PEMBELIAN ELEKTRONIK TV" />
+      <Text layoutX="14.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal" />
+      <Text layoutX="14.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MERK TV" />
+      <TextField layoutX="140.0" layoutY="76.0" />
+      <DatePicker layoutX="141.0" layoutY="157.0" prefHeight="26.0" prefWidth="150.0" />
+      <Text layoutX="14.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ukuran TV" />
+      <RadioButton layoutX="140.0" layoutY="119.0" mnemonicParsing="false" text="22 Inch" />
+      <RadioButton layoutX="246.0" layoutY="119.0" mnemonicParsing="false" text="32 Inch" />
+      <Button layoutX="189.0" layoutY="235.0" mnemonicParsing="false" text="SIMPAN" />
+   </children>
+</AnchorPane>
